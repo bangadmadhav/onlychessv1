@@ -2,7 +2,7 @@ import { GdataType } from "@/types/GameType";
 
 export default async function shuffleGame(): Promise<GdataType | null> {
   try {
-    const response = await fetch(`${process.env.API_BASE_URI}/api/gamedata/random`, {
+    const response = await fetch(`http://localhost:3000/api/gamedata/random`, {
       cache: "no-store",
     });
 

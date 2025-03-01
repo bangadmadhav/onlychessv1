@@ -1,0 +1,157 @@
+{
+    "_id": {
+      "$oid": "67c21357c5172e054cef6874"
+    },
+    "black": "Player2",
+    "event": "Casual Game",
+    "gameDetails": "Test 1 Details here",
+    "gameTitle": "Test game 1",
+    "moves": [
+      {
+        "movePlayed": "e4",
+        "evaluation": "+0.20",
+        "bestMove": "e4",
+        "comment": "Solid opening move, controlling the center."
+      },
+      {
+        "movePlayed": "e5",
+        "evaluation": "+0.10",
+        "bestMove": "e5",
+        "comment": "Symmetrical response, standard opening theory."
+      },
+      {
+        "movePlayed": "Nf3",
+        "evaluation": "+0.30",
+        "bestMove": "Nf3",
+        "comment": "Develops a knight and attacks the e5 pawn."
+      },
+      {
+        "Played": "Nc6",
+        "evaluation": "+0.15",
+        "bestMove": "Nc6",
+        "comment": "Defends the e5 pawn, common in Open Games."
+      },
+      {
+        "movePlayed": "Bb5",
+        "evaluation": "+0.50",
+        "bestMove": "Bb5",
+        "comment": "Ruy-Lopez opening, pinning the knight."
+      },
+      {
+        "movePlayed": "a6",
+        "evaluation": "+0.35",
+        "bestMove": "a6",
+        "comment": "Forces White to decide on the bishop."
+      },
+      {
+        "movePlayed": "Ba4",
+        "evaluation": "+0.60",
+        "bestMove": "Ba4",
+        "comment": "Retreating but maintaining pressure on the knight."
+      },
+      {
+        "movePlayed": "Nf6",
+        "evaluation": "+0.40",
+        "bestMove": "Nf6",
+        "comment": "Develops and attacks White’s e4 pawn."
+      },
+      {
+        "movePlayed": "O-O",
+        "evaluation": "+0.80",
+        "bestMove": "O-O",
+        "comment": "Castling for king safety."
+      },
+      {
+        "movePlayed": "Be7",
+        "evaluation": "+0.50",
+        "bestMove": "Be7",
+        "comment": "Develops but slightly passive."
+      },
+      {
+        "movePlayed": "Re1",
+        "evaluation": "+0.90",
+        "bestMove": "Re1",
+        "comment": "Supports e4 and prepares d4."
+      },
+      {
+        "movePlayed": "b5",
+        "evaluation": "+0.60",
+        "bestMove": "b5",
+        "comment": "Expands on the queenside."
+      },
+      {
+        "movePlayed": "Bb3",
+        "evaluation": "+0.95",
+        "bestMove": "Bb3",
+        "comment": "Preserves the bishop."
+      },
+      {
+        "movePlayed": "d6",
+        "evaluation": "+0.70",
+        "bestMove": "d6",
+        "comment": "Supports e5 but slightly slow."
+      },
+      {
+        "movePlayed": "c3",
+        "evaluation": "+1.00",
+        "bestMove": "c3",
+        "comment": "Prepares d4, gaining central control."
+      },
+      {
+        "movePlayed": "O-O",
+        "evaluation": "+0.80",
+        "bestMove": "O-O",
+        "comment": "Castles for safety."
+      },
+      {
+        "movePlayed": "h3",
+        "evaluation": "+1.20",
+        "bestMove": "h3",
+        "comment": "Prevents Bg4 pin."
+      },
+      {
+        "movePlayed": "Nb8",
+        "evaluation": "+1.00",
+        "bestMove": "Nb8",
+        "comment": "Knight retreat, slightly passive."
+      },
+      {
+        "movePlayed": "d4",
+        "evaluation": "+1.50",
+        "bestMove": "d4",
+        "comment": "Strong central break."
+      },
+      {
+        "movePlayed": "Nbd7",
+        "evaluation": "+1.20",
+        "bestMove": "Nbd7",
+        "comment": "Develops but passive."
+      },
+      {
+        "movePlayed": "Ra1",
+        "evaluation": "+3.50",
+        "bestMove": "Ra1",
+        "comment": "Blunder by Black, White gains a winning position."
+      },
+      {
+        "movePlayed": "Rc8",
+        "evaluation": "+4.00",
+        "bestMove": "Rc8",
+        "comment": "Doesn't help Black's position much."
+      },
+      {
+        "movePlayed": "Ne1",
+        "evaluation": "+5.00",
+        "bestMove": "Ne1",
+        "comment": "White is completely dominating now."
+      },
+      {
+        "movePlayed": "Rg8#",
+        "evaluation": "#0",
+        "bestMove": "Rg8#",
+        "comment": "Checkmate! White wins the game."
+      }
+    ],
+    "result": "1-0",
+    "white": "Player1"
+  }

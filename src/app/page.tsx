@@ -11,5 +11,7 @@ export default async function Home() {
   let initialGame = await shuffleGame();
   //console.log(initialGame);
 
-  return <GamePage initialGame={initialGame} />;
+  return (
+    <GamePage initalGame={initialGame}/>
+  )
 }
