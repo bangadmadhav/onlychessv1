@@ -4,7 +4,7 @@ import { Chessboard } from "react-chessboard";
 import { Chess } from "chess.js";
 import { useRef, useState } from "react";
 
-export default function Board() {
+const Board: React.FC = () => {
   const [game, setGame] = useState<Chess>(new Chess());
   const boardRef = useRef(null);
 
@@ -18,3 +18,5 @@ export default function Board() {
       />
   );
 }
+
+export default Board;

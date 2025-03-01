@@ -1,15 +1,18 @@
-import { Gdata } from "@/model/Gdata.model";
+import Gdata  from "@/model/Gdata.model";
+import { GdataType } from "@/types/GameType";
 import Board from "@/components/Board";
 import ControlButtons from "@/components/ControlButtons";
 import PlayerDetails from "@/components/PlayerDetails";
 
 interface GamePageProps {
-  initialGame: Gdata | null;
+  initialGame: GdataType | null;
 }
 
 const GamePage: React.FC<GamePageProps> = ({ initialGame }) => {
+  
   return (
     <div className="w-screen h-screen flex ">
+      
       <div className="w-[15%] bg-zinc-800
                       max-lg:hidden"></div>
       <div className="w-[85%] flex px-5
@@ -34,7 +37,7 @@ const GamePage: React.FC<GamePageProps> = ({ initialGame }) => {
           <div className="flex flex-col w-full h-full p-12">
             <div className="special-tag | w-full">1</div>
             <div className="comments | w-full">2</div>
-            <div className="w-full">3</div>
+            <div className="w-full"></div>
             <div className="control-buttons | w-full">
               <ControlButtons />
             </div>

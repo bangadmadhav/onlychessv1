@@ -1,22 +1,8 @@
 import mongoose, { Schema, Document } from "mongoose";
+import { GdataType } from "@/types/GameType";
+import { MoveType } from "@/types/MoveType.js"
 
-export interface Move extends Document {
-    movePlayed: string;
-    bestMove: string;
-    evaluation: string;
-    comment: string;
-};
-export interface Gdata extends Document{
-    event: string;
-    gameTitle: string;
-    gameDetails: string;
-    white: string;
-    black: string;
-    result: string;
-    moves: Move[];
-};
-
-const MoveSchema: Schema<Move> = new Schema({
+const MoveSchema: Schema<MoveType> = new Schema({
     movePlayed:{
         type: String,
         required: true
@@ -34,7 +20,7 @@ const MoveSchema: Schema<Move> = new Schema({
     }
 });
 
-const GdataSchema: Schema<Gdata> = new Schema({
+const GdataSchema: Schema<GdataType> = new Schema({
     event:{
         type: String,
         required: true,
@@ -67,6 +53,6 @@ const GdataSchema: Schema<Gdata> = new Schema({
     }
 });
 
-const GdataModel = (mongoose.models.Gdata as mongoose.Model<Gdata>) || mongoose.model<Gdata>("Gdata", GdataSchema);
+const Gdata = (mongoose.models.Gdata as mongoose.Model<GdataType>) || mongoose.model<GdataType>("Gdata", GdataSchema);
 
-export default GdataModel;
+export default Gdata;
